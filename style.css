@@ -1,0 +1,33 @@
+body{
+	background: #ccc;
+	font: normal 14px arial, helvetica, san-serif;
+}
+div{
+	box-sizing: border-box;
+}
+input{
+	display: block;
+	margin: 10px 0;
+	padding: 10px;
+}
+textarea, .header, .messages, .comments{
+	width: 75%;
+	display: block;
+	vertical-align: top;
+
+}
+.comments{
+	margin-left: 5%;
+}
+input.red{
+	border: 1px solid red;
+}
+p{
+	margin: 0;
+}
+.green{
+	color: green;
+}
+.red{
+	color: red;
+}
